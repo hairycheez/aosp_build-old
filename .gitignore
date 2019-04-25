@@ -6,3 +6,4 @@ modules/README
 
 # makefile for shared library for kitkat
 modules/*/SharedLibrary.mk
+.DS_Store
