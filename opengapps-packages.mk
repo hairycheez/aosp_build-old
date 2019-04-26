@@ -66,7 +66,8 @@ ifneq ($(filter micro,$(TARGET_GAPPS_VARIANT)),) # require at least micro
 GAPPS_PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     PrebuiltExchange3Google \
-    PrebuiltGmail
+    PrebuiltGmail \
+    SettingsSuggestions
 
 ifneq ($(filter 26,$(call get-allowed-api-levels)),)
 GAPPS_FORCE_PIXEL_LAUNCHER := true
